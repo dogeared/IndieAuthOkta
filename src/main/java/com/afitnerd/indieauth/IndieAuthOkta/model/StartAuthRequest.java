@@ -1,6 +1,6 @@
 package com.afitnerd.indieauth.IndieAuthOkta.model;
 
-public class GetAuthRequest extends BaseAuthRequest {
+public class StartAuthRequest extends BaseAuthRequest {
 
     private String me;
     private String state;
