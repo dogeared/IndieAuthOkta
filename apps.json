@@ -1,0 +1,33 @@
+{
+  "name": "IndieAuth with Okta",
+  "description": "Implements the IndieAuth protocol backed by Okta",
+  "repository": "https://github.com/dogeared/IndieAuthOkta",
+  "logo": "https://www.okta.com/sites/all/themes/Okta/images/logo.svg",
+  "keywords": ["indieweb", "indieauth", "okta"],
+  "env": {
+    "INDIEAUTH_AUTHORIZATION_ME_URI": {
+      "description": "The me uri to be returned after success",
+      "value": "changeme"
+    },
+    "INDIEAUTH_AUTHORIZATION_REDIRECT_URIS": {
+      "description": "comma separated list of allowed redirect uris",
+      "value": "changeme"
+    },
+    "OKTA_OAUTH2_ISSUER": {
+      "description": "Your Okta Authorization Server issuer uri",
+      "value": "changeme"
+    },
+    "OKTA_OAUTH2_CLIENT_ID": {
+      "description": "The Client Id for your Okta client application",
+      "value": "changeme"
+    },
+    "OKTA_OAUTH2_CLIENT_SECRET": {
+      "description": "The Client Secret for your Okta client application",
+      "value": "changeme"
+    },
+    "OKTA_OAUTH2_REDIRECT_URI": {
+      "description": "replace <app name> with the app name from above",
+      "value": "https://<app name>.herokuapp.com/callback"
+    }
+  }
+}
