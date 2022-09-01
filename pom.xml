@@ -17,7 +17,7 @@
 	<properties>
 		<java.version>11</java.version>
 		<apache.fluent.version>4.5.9</apache.fluent.version>
-		<jsoup.version>1.12.1</jsoup.version>
+		<jsoup.version>1.15.3</jsoup.version>
 	</properties>
 
 	<dependencies>
